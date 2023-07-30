@@ -8,9 +8,12 @@ Date: April 27, 2023
 
 **To Boot** 
 
-1. g++ -std=c++14 TheTournament.cpp Weapon.cpp User.cpp Armor.cpp Potion.cpp Map.cpp Opponent.cpp
- 
-2. ./a.out
+1. make
+2. ./output
+
+**To Clear**
+
+1. make clear
 
 ## Missed Implementations
 

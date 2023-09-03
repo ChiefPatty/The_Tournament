@@ -1,5 +1,5 @@
 output: TheTournament.o Weapon.o User.o Armor.o Potion.o Map.o Opponent.o
-	g++ TheTournament.o Weapon.o User.o Armor.o Potion.o Map.o Opponent.o -o output
+	g++ TheTournament.o Weapon.o User.o Armor.o Potion.o Map.o Opponent.o -o TheTournament
 
 TheTournament.o: TheTournament.cpp
 	g++ -c TheTournament.cpp
@@ -23,4 +23,4 @@ Opponent.o: Opponent.cpp Opponent.h
 	g++ -c Opponent.cpp
 
 clear:
-	rm *.o output
+	rm *.o TheTournament

@@ -2,18 +2,18 @@
 #include <fstream>
 #include <iomanip> 
 
-#include "Armor.h" // Class used to store, modify, and upgrade armor objects
-#include "User.h" // Class used to store and modify items in the inventory
-#include "Potion.h" // Class used to create and randomize opponents faced
-#include "Weapon.h" // Class used to store, modify, and upgrade weapon objects
-#include "Map.h"
-#include "Opponent.h"
+#include "assets/armor/Armor.h" // Class used to store, modify, and upgrade armor objects
+#include "assets/people/user/User.h" // Class used to store and modify items in the inventory
+#include "assets/items/potions/Potion.h" // Class used to create and randomize opponents faced
+#include "assets/weapons/Weapon.h" // Class used to store, modify, and upgrade weapon objects
+#include "assets/ship/Map.h"
+#include "assets/people/opponent/Opponent.h"
 
 using namespace std;
 
 /**
  * To compile this file use:
- * 1. g++ -std=c++14 theTournament.cpp Weapon.cpp User.cpp Armor.cpp Potion.cpp Map.cpp Opponent.cpp
+ * 1. g++ -std=c++14 theTournament.cpp assets/weapons/Weapon.cpp assets/people/user/User.cpp assets/armor/Armor.cpp assets/items/potions/Potion.cpp assets/ship/Map.cpp assets/people/opponent/Opponent.cpp
  * 2. ./a.out
 */
 

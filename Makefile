@@ -1,5 +1,5 @@
 play: TheTournament.o assets/weapons/Weapon.o assets/people/user/User.o assets/armor/Armor.o assets/items/potions/Potion.o assets/ship/Map.o assets/people/opponent/Opponent.o
-	g++ TheTournament.o assets/weapons/Weapon.o assets/people/user/User.o assets/armor/Armor.o assets/items/potions/Potion.o assets/ship/Map.o assets/people/opponent/Opponent.o -o TheTournament
+	g++ TheTournament.o assets/weapons/Weapon.o assets/people/user/User.o assets/armor/Armor.o assets/items/potions/Potion.o assets/ship/Map.o assets/people/opponent/Opponent.o -o Play
 
 TheTournament.o: TheTournament.cpp
 	g++ -c TheTournament.cpp

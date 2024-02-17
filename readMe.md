@@ -1,29 +1,29 @@
 # Welcome to the Tournament
 
-**To Boot** 
+## To Boot 
 
 1. make
-2. ./output
+2. ./play
 
-**To Clear**
+## To Clear
 
 1. make clear
 
-## Roadmap
+# Roadmap
 
-### 1. Improved Game Balancing
+## 1. Improved Game Balancing
 
 The biggest focus of change going forward will be how the game is balanced. In certain areas the game is unfair or too easy that make playing the game too thoughtless. First change will be opponent generation to be improved to match player level.
 
-### 2. Save/Load Functions
+## 2. Save/Load Functions
 
 Save and load functions will be added to allow the player to store progress so a game can be reloaded at a later time
 
-### 3. Item Upgrades/Destruction
+## 3. Item Upgrades/Destruction
 
 In future iterations of the game, weapons and armor will degrade after continuous abuse in fights (on a hit to hit basis) so the player is required to keep a changing arsenal of weapons. Each weapon will have a randomly generated durability value at the start that will determine how many hits it could last and how much the weapons will be valued at.
 
-### 4. More Functional Ship
+## 4. More Functional Ship
 
 One key focus of the game will be to have the ship function as a base for collectibles and an opponent record
 
@@ -41,20 +41,21 @@ In the arena, players will face off against a variety of opponents, each with th
 
 Overall, "The Tournament" is a thrilling and immersive game that captures the spirit of a post-dystopian future world. With its fast-paced combat, diverse cast of characters, and richly detailed environments, it's sure to be a hit with gamers looking for an unforgettable gaming experience. So sharpen your blades, stock up on ammo, and get ready for the fight of your life in "The Tournament."
 
-## Mechanics
+# Mechanics
 
-### The Ship
+## The Ship
 
 The ship where you'll find your bed. If you go to you bed you'll fully reheal your health
 
-### The Forge
+## The Forge
 
 The Forge is where you'll find all items for purchase. There is no selling in this game. You're expected to keep buying between turns
 
 The Forge is where you can buy weapons, armor, or potions. All weapons and armor are random each time you enter.
 
-### The Arena
+## The Arena
 
 The Arena is where all the planning comes to play. Each opponent you get is random and could be slightly better to slightly worse. They are at least guarenteed to be within two levels of you. Don't worry about winning off the bat. You may get opponents better than you.
 
-# !!Don't Forget to Buy Potions Between Turns and Upgrade Your Gear!!
+> [!TIP] 
+> Don't Forget to Buy Potions Between Turns and Upgrade Your Gear

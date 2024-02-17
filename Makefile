@@ -1,11 +1,11 @@
-output: TheTournament.o Weapon.o User.o Armor.o Potion.o Map.o Opponent.o
-	g++ TheTournament.o Weapon.o User.o Armor.o Potion.o Map.o Opponent.o -o TheTournament
+play: TheTournament.o assets/weapons/Weapon.o User.o Armor.o Potion.o Map.o Opponent.o
+	g++ TheTournament.o assets/weapons/Weapon.o User.o Armor.o Potion.o Map.o Opponent.o -o TheTournament
 
 TheTournament.o: TheTournament.cpp
 	g++ -c TheTournament.cpp
 
-Weapon.o: Weapon.cpp Weapon.h
-	g++ -c Weapon.cpp
+assets/weapons/Weapon.o: assets/weapons/Weapon.cpp assets/weapons/Weapon.h
+	g++ -c assets/weapons/Weapon.cpp -o assets/weapons/Weapon.o
 
 User.o: User.cpp User.h
 	g++ -c User.cpp

@@ -1,7 +1,7 @@
 #include "User.h"
-#include "Weapon.h"
-#include "Armor.h"
-#include "Potion.h"
+#include "../../weapons/Weapon.h" // include the Weapon header file
+#include "../../armor/Armor.h"
+#include "../../items/potions/Potion.h"
 
 #include <iostream>
 #include <iomanip>

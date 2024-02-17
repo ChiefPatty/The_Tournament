@@ -1,9 +1,9 @@
 #ifndef USER_H
 #define USER_H
 
-#include "Weapon.h" // include the Weapon header file
-#include "Armor.h"
-#include "Potion.h"
+#include "../../weapons/Weapon.h" // include the Weapon header file
+#include "../../armor/Armor.h"
+#include "../../items/potions/Potion.h"
 
 #include <string>
 

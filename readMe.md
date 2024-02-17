@@ -1,9 +1,3 @@
-CSCI 1300 - Spring 2023
-Project 3: The Tournament
-Author: Lucas Patenaude
-Recitation: 201 - Kyler Ruvane
-Date: April 27, 2023
-
 # Welcome to the Tournament
 
 **To Boot** 
@@ -15,17 +9,17 @@ Date: April 27, 2023
 
 1. make clear
 
-## Missed Implementations
+## Roadmap
 
-### Save/Load Not Functional [Ran out of time]
+### 1. Save/Load Not Functional 
 
 In my final vision of this game it had a save/load function. My plan was to use file I/O to output the user's gear values to a text file which would then be saved to a folder called Game_Saves in the program when a user decides to exit. The game was initially designed to ask the user if they would like to do a new game or load a file but ultimately that had to be cut due to time. If I were to have I imagine the load function would been implemented by putting a label at each line like primary for the primary weapon, or helmet for the user's helmet which would then be seaparared by a separator character, which would then be followed the that weapons or gears unique attributes separated by the separator. Then a if/else would be used to filter each thing to the right object or array.
 
-### Item Upgrades/Destruction [Ran out of time]
+### 2. Item Upgrades/Destruction [Ran out of time]
 
 One of the things I wanted to add to the map/ship were two stations that could each modify weapons and armor respectively. These upgrades would've been bought from the Forge, saved into an array of type Obejcts (another class, I know) which could then return an integer value to modify a Weapon object.
 
-### Scoreboard/Record of Opponents [Ran out of time]
+### 3. Scoreboard/Record of Opponents [Ran out of time]
 
 Another thing I wanted to implement into the ship/map was a scorebaord or list of opponents beaten with their names. Unfortunately, this had to be cut as a time-based decision.
 

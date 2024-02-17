@@ -11,19 +11,23 @@
 
 ## Roadmap
 
-### 1. Save/Load Not Functional 
+### 1. Improved Game Balancing
 
-In my final vision of this game it had a save/load function. My plan was to use file I/O to output the user's gear values to a text file which would then be saved to a folder called Game_Saves in the program when a user decides to exit. The game was initially designed to ask the user if they would like to do a new game or load a file but ultimately that had to be cut due to time. If I were to have I imagine the load function would been implemented by putting a label at each line like primary for the primary weapon, or helmet for the user's helmet which would then be seaparared by a separator character, which would then be followed the that weapons or gears unique attributes separated by the separator. Then a if/else would be used to filter each thing to the right object or array.
+The biggest focus of change going forward will be how the game is balanced. In certain areas the game is unfair or too easy that make playing the game too thoughtless. First change will be opponent generation to be improved to match player level.
 
-### 2. Item Upgrades/Destruction [Ran out of time]
+### 2. Save/Load Functions
 
-One of the things I wanted to add to the map/ship were two stations that could each modify weapons and armor respectively. These upgrades would've been bought from the Forge, saved into an array of type Obejcts (another class, I know) which could then return an integer value to modify a Weapon object.
+Save and load functions will be added to allow the player to store progress so a game can be reloaded at a later time
 
-### 3. Scoreboard/Record of Opponents [Ran out of time]
+### 3. Item Upgrades/Destruction
 
-Another thing I wanted to implement into the ship/map was a scorebaord or list of opponents beaten with their names. Unfortunately, this had to be cut as a time-based decision.
+In future iterations of the game, weapons and armor will degrade after continuous abuse in fights (on a hit to hit basis) so the player is required to keep a changing arsenal of weapons. Each weapon will have a randomly generated durability value at the start that will determine how many hits it could last and how much the weapons will be valued at.
 
-### About
+### 4. More Functional Ship
+
+One key focus of the game will be to have the ship function as a base for collectibles and an opponent record
+
+# About
 
 In the post-dystopian future world of "The Tournament," players arrive on the Planet Kumite aboard their spaceship, ready to take on the challenges of the most brutal and blood-soaked competition in the galaxy. The atmosphere is grim and dangerous, with a sense of lawlessness that permeates the air. As players disembark from their ship and step onto the dusty surface of the planet, they are immediately met with a sense of unease.
 

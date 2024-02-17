@@ -4,7 +4,6 @@ play: TheTournament.o assets/weapons/Weapon.o assets/people/user/User.o assets/a
 TheTournament.o: TheTournament.cpp
 	g++ -c TheTournament.cpp
 
-
 Weapon.o: assets/weapons/Weapon.cpp assets/weapons/Weapon.h
 	-p assets/weapons
 	g++ -c assets/weapons/Weapon.cpp -o assets/weapons/Weapon.o

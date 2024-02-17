@@ -41,6 +41,9 @@ In the arena, players will face off against a variety of opponents, each with th
 
 Overall, "The Tournament" is a thrilling and immersive game that captures the spirit of a post-dystopian future world. With its fast-paced combat, diverse cast of characters, and richly detailed environments, it's sure to be a hit with gamers looking for an unforgettable gaming experience. So sharpen your blades, stock up on ammo, and get ready for the fight of your life in "The Tournament."
 
+> [!TIP] 
+> Don't Forget to Buy Potions Between Turns and Upgrade Your Gear
+
 # Mechanics
 
 ## The Ship
@@ -56,6 +59,3 @@ The Forge is where you can buy weapons, armor, or potions. All weapons and armor
 ## The Arena
 
 The Arena is where all the planning comes to play. Each opponent you get is random and could be slightly better to slightly worse. They are at least guarenteed to be within two levels of you. Don't worry about winning off the bat. You may get opponents better than you.
-
-> [!TIP] 
-> Don't Forget to Buy Potions Between Turns and Upgrade Your Gear

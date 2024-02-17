@@ -31,3 +31,5 @@ assets/people/opponent/Opponent.o: assets/people/opponent/Opponent.cpp assets/pe
 
 clear:
 	rm -f assets/*/*.o TheTournament
+	rm -f assets/*/*/*.o TheTournament
+	rm -f *.o TheTournament
